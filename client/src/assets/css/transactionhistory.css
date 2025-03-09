@@ -1,0 +1,150 @@
+/* src/components/TransactionHistory.css */
+.transaction-history {
+  width: 100%;
+}
+
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.wallet-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.wallet-balance {
+  font-weight: 600;
+  color: var(--primary-color);
+  font-size: 1.2rem;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.pagination-controls {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.pagination-controls select {
+  padding: 0.5rem;
+  margin-left: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.page-navigation {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.page-navigation button {
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+}
+
+.export-button {
+  background-color: var(--warning-color);
+}
+
+.export-button:hover {
+  background-color: var(--warning-color);
+  opacity: 0.9;
+}
+
+.no-transactions-message,
+.no-wallet-message {
+  text-align: center;
+  padding: 3rem;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: var(--shadow);
+}
+
+.no-wallet-message p {
+  margin-bottom: 1rem;
+}
+
+.nav-link {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.75rem 1.5rem;
+  background-color: var(--primary-color);
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.nav-link:hover {
+  background-color: var(--primary-hover);
+}
+
+.transactions-table-container {
+  overflow-x: auto;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: var(--shadow);
+}
+
+.transactions-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.transactions-table th,
+.transactions-table td {
+  padding: 1rem;
+  text-align: left;
+}
+
+.transactions-table th {
+  background-color: #f8f9fa;
+  font-weight: 600;
+}
+
+.transactions-table tbody tr:nth-child(even) {
+  background-color: #f8f9fa;
+}
+
+.transactions-table tbody tr:hover {
+  background-color: rgba(52, 152, 219, 0.05);
+}
+
+.sortable {
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+}
+
+.sortable:hover {
+  background-color: #eee;
+}
+
+.sorted {
+  background-color: rgba(52, 152, 219, 0.1);
+}
+
+.sort-indicator {
+  font-weight: bold;
+}
+
+.credit-amount {
+  color: var(--secondary-color);
+  font-weight: 600;
+}
+
+.debit-amount {
+  color: var(--danger-color);
+  font-weight: 600;
+}

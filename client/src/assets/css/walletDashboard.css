@@ -1,0 +1,149 @@
+/* src/components/WalletDashboard.css */
+.wallet-dashboard {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.setup-wallet-container {
+  background-color: white;
+  border-radius: 8px;
+  padding: 2rem;
+  box-shadow: var(--shadow);
+}
+
+.setup-wallet-container h2 {
+  margin-bottom: 1.5rem;
+  color: var(--dark-color);
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 0.75rem;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  transition: border-color 0.3s;
+}
+
+.form-group input:focus {
+  outline: none;
+  border-color: var(--primary-color);
+}
+
+button {
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: var(--primary-hover);
+}
+
+button:disabled {
+  background-color: var(--gray-color);
+  cursor: not-allowed;
+}
+
+.wallet-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+
+@media (min-width: 768px) {
+  .wallet-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.wallet-details {
+  background-color: white;
+  border-radius: 8px;
+  padding: 2rem;
+  box-shadow: var(--shadow);
+}
+
+.wallet-details h2 {
+  margin-bottom: 1rem;
+  color: var(--dark-color);
+}
+
+.balance {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.balance-label {
+  font-size: 1.2rem;
+  margin-right: 0.5rem;
+}
+
+.balance-amount {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: var(--primary-color);
+}
+
+.wallet-info {
+  color: var(--gray-color);
+  font-size: 0.9rem;
+}
+
+.wallet-info p {
+  margin-bottom: 0.5rem;
+}
+
+.transaction-form-container {
+  background-color: white;
+  border-radius: 8px;
+  padding: 2rem;
+  box-shadow: var(--shadow);
+}
+
+.transaction-form-container h3 {
+  margin-bottom: 1.5rem;
+  color: var(--dark-color);
+}
+
+.transaction-type-toggle {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.toggle-btn {
+  flex: 1;
+  padding: 0.75rem;
+  font-size: 0.9rem;
+  background-color: #f1f1f1;
+  color: var(--dark-color);
+}
+
+.toggle-btn.active {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.toggle-btn:first-child.active {
+  background-color: var(--secondary-color);
+}
+
+.toggle-btn:last-child.active {
+  background-color: var(--danger-color);
+}
