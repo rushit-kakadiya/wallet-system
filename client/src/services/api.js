@@ -2,7 +2,7 @@ import axios from "axios";
 
 // Create an axios instance with default configuration
 const api = axios.create({
-  baseURL: "https://rushit-wallet-system.netlify.app/api",
+  baseURL: "https://highlevel-wallet-system-rzl9.onrender.com/api",
   headers: { "Content-Type": "application/json" },
 });
 
