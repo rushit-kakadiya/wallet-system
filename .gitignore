@@ -37,8 +37,6 @@ bower_components
 
 # Compiled binary addons (https://nodejs.org/api/addons.html)
 build/Release
-dist/
-client/dist/
 build/
 
 # Dependency directories
@@ -93,7 +91,7 @@ out
 
 # Nuxt.js build / generate output
 .nuxt
-dist
+
 
 # Gatsby files
 .cache/
