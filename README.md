@@ -1,5 +1,5 @@
-# High-Level Wallet System 
-### https://highlevel-wallet-system-rzl9.onrender.com
+# Wallet System 
+### 
 
 This is a full-stack application designed for managing digital wallets, where users can create wallets, process transactions (credit and debit), and view transaction history. The application is built using Node.js, Express, and MongoDB, and it supports operations like wallet setup, transaction processing, and transaction retrieval with pagination.
 
@@ -23,8 +23,8 @@ This is a full-stack application designed for managing digital wallets, where us
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/rushit-kakadiya/highlevel-wallet-system.git
-cd highlevel-wallet-system
+git clone https://github.com/rushit-kakadiya/wallet-system.git
+cd wallet-system
 ```
 
 ### 2. Install Dependencies
