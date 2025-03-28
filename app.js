@@ -12,7 +12,7 @@ const app = express();
 // Middleware
 app.use(
   cors({
-    origin: process.env.CLIENT_URL || "https://highlevel-wallet-system-rzl9.onrender.com",
+    origin: process.env.CLIENT_URL || "https://wallet-system-rzl9.onrender.com",
     methods: ["GET", "POST"],
     allowedHeaders: ["Content-Type", "Authorization"],
   })

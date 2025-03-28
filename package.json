@@ -15,7 +15,6 @@
     "install-all": "npm install && cd client && npm install"
   },
   "keywords": [],
-  "author": "",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
