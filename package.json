@@ -1,7 +1,8 @@
 {
-  "name": "highlevel-wallet-system",
+  "name": "wallet-system",
   "version": "1.0.0",
-  "description": "Highlevel assesment: full-stack application for a wallet system",
+  "description": "Full-stack application for a wallet system",
+  "author":"rushit-kakadiya",
   "main": "app.js",
   "scripts": {
     "test": "jest",
